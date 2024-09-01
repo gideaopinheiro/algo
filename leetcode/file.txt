@@ -1,0 +1,57 @@
+ds8 (linked list):
+  83
+ds9 (stack / queue):
+  20
+  232
+ds10 (tree):
+  144
+  94
+  145
+ds11 (tree):
+  102
+  104
+  101
+ds12 (tree):
+  226
+  112
+ds13 (tree):
+  700
+  701
+ds14 (tree):
+  98
+  653
+  235
+
+
+
+alg5 (two pointers):
+  19
+alg6 (sliding window):
+  3
+  567
+alg7 (bfs / dfs):
+  733
+  695
+alg8 (bfs / dfs):
+  617
+  116
+alg9 (bfs / dfs):
+  542
+  994
+alg10 (recursion / backtracking):
+  21
+  206
+alg11 (recursion / backtracking):
+  77
+  46
+  784
+alg12 (dp):
+  70
+  198
+  120
+alg13 (bit manipulation):
+  231
+  191
+alg14 (bit manipulation):
+  190
+  136

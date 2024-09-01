@@ -1,0 +1,19 @@
+{
+  "files.associations": {
+    "ostream": "cpp",
+    "iostream": "cpp",
+    "*.tcc": "cpp",
+    "cstdlib": "cpp",
+    "vector": "cpp",
+    "exception": "cpp",
+    "initializer_list": "cpp",
+    "iosfwd": "cpp",
+    "istream": "cpp",
+    "new": "cpp",
+    "streambuf": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp",
+    "limits": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
+}

@@ -1,7 +1,8 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-class Item {
+class Item
+{
 public:
   int value;
   Item *next;
@@ -9,7 +10,8 @@ public:
   friend class LinkedList;
 };
 
-class LinkedList {
+class LinkedList
+{
 public:
   Item *head;
   void pushInFront(int num);
@@ -21,29 +23,35 @@ public:
 
 LinkedList::LinkedList() : head(NULL) {}
 
-LinkedList::~LinkedList() {
-  while (head != NULL) {
+LinkedList::~LinkedList()
+{
+  while (head != NULL)
+  {
     pop();
   }
 };
 
-void LinkedList::print() {
+void LinkedList::print()
+{
   Item *temp = head;
-  while (temp->next != NULL) {
+  while (temp->next != NULL)
+  {
     cout << "[ " << temp->value << " ] -> ";
     temp = temp->next;
   }
   cout << "[ " << temp->value << " ]" << endl;
 }
 
-void LinkedList::pushInFront(int num) {
+void LinkedList::pushInFront(int num)
+{
   Item *node = new Item;
   node->value = num;
   node->next = head;
   head = node;
 };
 
-int LinkedList::pop() {
+int LinkedList::pop()
+{
   int value = head->value;
   Item *temp = head;
   head = head->next;
@@ -52,7 +60,8 @@ int LinkedList::pop() {
   return value;
 };
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
   LinkedList *ll = new LinkedList;
 
   ll->pushInFront(2);
